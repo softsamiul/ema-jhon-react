@@ -1,2 +1,48 @@
 1. Install react router
-2. 
+2. Create order review component
+3. Create inventory component 
+4. Create 404 component
+
+
+5. Create a folder hooks and a component inside it named useProduct.js
+6. create a arrow function, inside this create a state, a useEffect, fetch data from priduct.json
+set data to state, return[products] necessary things as array, export default the function
+7. go to overview component import he function 
+
+8. createa useCart hook, 
+    1. if product.length
+    2. getStored data from ls
+    3. declare new empty array
+    4. get key value from saved cart usiing for of
+    5. addeded product find and check the key is qualt key or not
+    6. if added product exist then const quantity = davedCart[key]
+    7. addedProduct quantity = quantity
+    8. push the stored cart to savedCart 
+
+9. create component for review item and take a props product 
+10. 
+
+
+=============================
+# Concepts:
+----------
+Hooks: here is two types of hooks.
+1. useState()
+2. useeffect()
+### What is hook?: Hook is nothing but a function.
+
+1. useState(): Use state is nothing but a function. Here is a secial purpose of usestate hook. If inside code anything changed he return the latest value and also a function to change the value.
+
+    Works: He keep tracks inside his body and return if there is anything changed. And also we can change anything from  the function which he returns. And update all the changed things in the ui.
+
+2. useeffect(): useeffect is also a function. It manage all the external data. If we don't give any dependency inside useEffect it will automatically calls the data whenever the site is relod. So. good practice is always try to use dependency.
+
+dependency: Dependency is something if we change the dependency the data will updated or called.
+
+    Works: 
+
+Removing using filter from array:
+---------------------------------
+
+custom hooks:
+-------------
